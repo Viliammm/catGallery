@@ -1,0 +1,59 @@
+
+
+h1{
+	color: purple;
+}
+
+img{
+	border-radius: 1rem;
+	float: left;
+	margin-bottom: 4rem;
+	margin-left: auto;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+.container{
+	background-color: #DDD;
+	border-radius: 1rem;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.heading{
+	text-align: center;
+}
+
+@media only screen and (min-width: 480px){
+	img{
+		width: 70%;
+		margin-left: 15%;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	img{
+		width: 40%;
+		margin: 5%;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	img{
+		width: 30%;
+		margin: 1.66%;
+	}
+}
+
+@media only screen and (min-width: 992px){
+
+
+}
+
+@media only screen and (min-width: 1200px){
+	img{
+		width: 20%;
+		margin: 2.5%;
+	}
+}
