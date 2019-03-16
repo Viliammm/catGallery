@@ -1,7 +1,17 @@
-
+body{
+	background-color: #EEEEEE;
+	font-family: 'Muli', sans-serif;
+}
 
 h1{
-	color: purple;
+	color: #560764;
+	font-family: 'Srisakdi', cursive;
+	font-size: 5rem;
+
+}
+
+h3{
+	font-size: 1.8rem;
 }
 
 img{
@@ -15,7 +25,6 @@ img{
 }
 
 .container{
-	background-color: #DDD;
 	border-radius: 1rem;
 	margin: 0 auto;
 	width: 90%;
