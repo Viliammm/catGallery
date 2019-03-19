@@ -1,5 +1,5 @@
 body{
-	background-color: #EEEEEE;
+	background-color: #eeeeee;
 	font-family: 'Muli', sans-serif;
 }
 
@@ -12,10 +12,12 @@ h1{
 
 h3{
 	font-size: 1.8rem;
+	color: #bb8fa9;
 }
 
 img{
 	border-radius: 1rem;
+	display: none;
 	float: left;
 	margin-bottom: 4rem;
 	margin-left: auto;
@@ -32,6 +34,10 @@ img{
 
 .heading{
 	text-align: center;
+}
+
+.visible{
+	display: inline-block;
 }
 
 @media only screen and (min-width: 480px){
