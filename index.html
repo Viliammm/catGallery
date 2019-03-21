@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<script type="text/javascript" src="js/jQuery/jquery-3.3.1.min.js"></script>	
 </head>
 <body>
 <div class="container">
@@ -14,8 +15,40 @@
 		<h1>The Gallery of Františka</h1>
 		<h3>This is gallery of photos of Františka, my cat.</h3>
 	</div>
+	<div>
+		<form class="filter">
+			<div class="kitten">
+				<input type="checkbox" id="kitten" name="kitten">
+				<label for="kitten">I want to see Františka as a kitten</label>
+			</div>
+			<div class="adult-cat">
+				<input type="checkbox" id="adult" name="adult" checked="true">
+				<label for="adult">I want to see Františka as an adult cat</label>
+			</div>
+			<div class="cute">
+				<input type="checkbox" id="cute" name="cute" checked="true">
+				<label for="cute">I want to see cute Františka</label>
+			</div>
+			<div class="bitchy">
+				<input type="checkbox" id="bitchy" name="bitchy" checked="true">
+				<label for="bitchy">I want to see bitchy Františka</label>
+			</div>
+			<div class="bewildered">
+				<input type="checkbox" id="bewildered" name="bewildered" checked="true">
+				<label for="bewildered">I want to see bewildered Františka</label>
+			</div>
+			<div class="sleeping">
+				<input type="checkbox" id="sleeping" name="sleeping" checked="true">
+				<label for="sleeping">I want to see sleeping Františka</label>
+			</div>
+			<div class="sexy">
+				<input type="checkbox" id="sexy" name="sexy" checked="true">
+				<label for="sexy">I want to see sexy Františka</label>
+			</div>
+		</form>
+	</div>
 	<div class="gallery">
-		<img src="images/IMG_4259.jpg">		
+		<img class="img1" src="images/IMG_4259.jpg">		
 		<img src="images/IMG_6141.jpg">
 		<img src="images/IMG_6142.jpg">
 		<img src="images/IMG_6146.jpg">
@@ -41,12 +74,6 @@
 		<img src="images/IMG_9720.jpg">
 	</div>
 </div>
-
-<!-- 
-TODO:	- styling
-	- udělat filtr na různé typy fotek
- -->
-
 <footer><a href="https://viliammm.github.io/presentation">©Aladár Chrochtochvost 2019</a></footer>
 
 <script type="text/javascript" src="js/index.js"></script>
