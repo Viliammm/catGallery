@@ -17,6 +17,7 @@ h3{
 
 img{
 	border-radius: 1rem;
+	display: none;
 	float: left;
 	margin-bottom: 4rem;
 	margin-left: auto;
@@ -35,8 +36,8 @@ img{
 	text-align: center;
 }
 
-.hidden{
-	display: none;
+.visible{
+	display: inline-block;
 }
 
 @media only screen and (min-width: 480px){
