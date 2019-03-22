@@ -1,3 +1,4 @@
+alert("is this thing on?");
 function filter(){
 	$(".filter").change(function(e){
 		var id = $("#"+e.target.id);
