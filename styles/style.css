@@ -12,6 +12,8 @@ footer a{
 	background-color: #fff08e;
 	bottom: 0;
 	color: #52aeff;
+	padding: 1rem 0;
+	position: fixed;
 	text-decoration: none;
 	width: 100%;
 }
