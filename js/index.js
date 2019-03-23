@@ -1,4 +1,3 @@
-alert("why is this shit not working")
 function filter(){
 	$(".filter").change(function(e){
 		var id = $("#"+e.target.id);
