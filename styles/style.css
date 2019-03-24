@@ -1,5 +1,6 @@
 body{
 	background-color: #fff08e;
+
 	font-family: 'Muli', sans-serif;
 }
 
@@ -12,10 +13,16 @@ footer a{
 	background-color: #fff08e;
 	bottom: 0;
 	color: #52aeff;
-	padding: 1rem 0;
+	padding: 1rem 0 1.5rem 5%;
 	position: fixed;
 	text-decoration: none;
 	width: 100%;
+}
+
+footer:hover .link{
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: 0.02rem;
 }
 
 h1{
@@ -29,28 +36,45 @@ h4{
 	color: #e87c6e;
 }
 
+hr{	
+	border: none;
+	background-color: #e87c6e;
+	height: 1px;
+	margin: 2rem 0;
+}
+
 img{
 	border-radius: 1rem;
+	/*border: 2px solid #52aeff;*/
 	display: none;
 	float: left;
-	margin-bottom: 4rem;
-	margin-left: auto;
 	width: 90%;
 	margin-left: 5%;
 }
 
-.link{
-	font-style: italic;
+label{
+	color: #414141;
 }
 
 p{
 	color: #52aeff;
+	font-size: 1.1rem;
 }
 
 .container{
 	border-radius: 1rem;
+
 	margin: 0 auto;
 	width: 90%;
+
+}
+
+.footer{
+	padding-top: 1000rem;
+}
+
+.gallery{
+	box-sizing: border-box;
 }
 
 .header{
