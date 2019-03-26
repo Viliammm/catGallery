@@ -1,3 +1,7 @@
+*{
+	margin: 0 auto;
+}
+
 body{
 	background-color: #fff08e;
 
@@ -5,18 +9,21 @@ body{
 }
 
 footer{
+	background-color: #fff08e;
+	color: #52aeff;
+	bottom: 0;
 	clear: left;
 	margin-top: 4rem;
+	position: fixed;
+	width: 100%;
+	margin-left: 5%;
+	padding: 0.3rem 0;
+	height: 1.3rem;
 }
 
 footer a{
-	background-color: #fff08e;
-	bottom: 0;
 	color: #52aeff;
-	padding: 1rem 0 1.5rem 5%;
-	position: fixed;
 	text-decoration: none;
-	width: 100%;
 }
 
 footer:hover .link{
@@ -45,36 +52,34 @@ hr{
 
 img{
 	border-radius: 1rem;
-	/*border: 2px solid #52aeff;*/
 	display: none;
 	float: left;
 	width: 90%;
 	margin-left: 5%;
+
+
+	/*Blue border*/
+	box-sizing: border-box;
+	padding: 2px;
+	background-color: #52aeff;
+	
 }
 
 label{
 	color: #414141;
 }
 
-p{
+.body p{
 	color: #52aeff;
 	font-size: 1.1rem;
+	padding-bottom: 1rem;
 }
 
 .container{
 	border-radius: 1rem;
-
 	margin: 0 auto;
 	width: 90%;
 
-}
-
-.footer{
-	padding-top: 1000rem;
-}
-
-.gallery{
-	box-sizing: border-box;
 }
 
 .header{
