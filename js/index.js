@@ -4,11 +4,11 @@ function filter(){
 		var group = $("."+e.target.id);
 		var check = id.prop("checked");
 		if(check === true){
-			console.log("unchecked")
-			group.addClass("visible")
+			group.addClass("visible");
 		} 
-		else {
-			group.removeClass("visible")
+
+		else if(check === false){
+			group.removeClass("visible");
 		}
 	});
 }
