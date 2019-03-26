@@ -32,6 +32,10 @@ footer:hover .link{
 	letter-spacing: 0.02rem;
 }
 
+form .group{
+	margin-bottom: 0.5rem;
+}
+
 h1{
 	color: #ff5c46;
 	font-family: 'Srisakdi', cursive;
@@ -57,7 +61,6 @@ img{
 	width: 90%;
 	margin-left: 5%;
 
-
 	/*Blue border*/
 	box-sizing: border-box;
 	padding: 2px;
@@ -67,6 +70,7 @@ img{
 
 label{
 	color: #414141;
+	margin-left: 0.5rem;
 }
 
 .body p{
