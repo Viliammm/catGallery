@@ -4,11 +4,11 @@ function filter(){
 		var group = $("."+e.target.id);
 		var check = id.prop("checked");
 		if(check === true){
-			group.addClass("visible");
+			group.fadeIn(1000);
 		} 
 
 		else if(check === false){
-			group.removeClass("visible");
+			group.fadeOut(750);
 		}
 	});
 }
