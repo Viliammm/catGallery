@@ -90,10 +90,6 @@ label{
 	text-align: center;
 }
 
-.visible{
-	display: inline-block;
-}
-
 @media only screen and (min-width: 480px){
 	img{
 		width: 70%;
