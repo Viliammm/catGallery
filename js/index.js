@@ -8,7 +8,7 @@ function filter(){
 		} 
 
 		else if(check === false){
-			group.fadeOut(750);
+			group.fadeOut(500);
 		}
 	});
 }
