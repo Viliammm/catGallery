@@ -3,13 +3,13 @@
 }
 
 body{
-	background-color: #fff08e;
+	background-color: #eeeeee;
 
 	font-family: 'Muli', sans-serif;
 }
 
 footer{
-	background-color: #fff08e;
+	background-color: #eeeeee;
 	color: #52aeff;
 	bottom: 0;
 	clear: left;
@@ -37,19 +37,19 @@ form .group{
 }
 
 h1{
-	color: #ff5c46;
+	color: #560764;
 	font-family: 'Srisakdi', cursive;
 	font-size: 4rem;
 }
 
 h4{
+	color: #bb8fa9;
 	font-size: 1.4rem;
-	color: #e87c6e;
 }
 
 hr{	
 	border: none;
-	background-color: #e87c6e;
+	background-color: #cccccc;
 	height: 1px;
 	margin: 2rem 0;
 }
@@ -58,23 +58,22 @@ img{
 	border-radius: 1rem;
 	display: none;
 	float: left;
-	width: 90%;
 	margin-left: 5%;
+	opacity: 0.9;
+	width: 90%;
+}
 
-	/*Blue border*/
-	box-sizing: border-box;
-	padding: 2px;
-	background-color: #52aeff;
-	
+img:hover{
+	opacity: 1;
 }
 
 label{
-	color: #414141;
+	color: #bb8fa9;
 	margin-left: 0.5rem;
 }
 
 .body p{
-	color: #52aeff;
+	color: #444444;
 	font-size: 1.1rem;
 	padding-bottom: 1rem;
 }
@@ -83,7 +82,6 @@ label{
 	border-radius: 1rem;
 	margin: 0 auto;
 	width: 90%;
-
 }
 
 .header{
