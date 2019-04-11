@@ -4,29 +4,28 @@
 
 body{
 	background-color: #eeeeee;
-
 	font-family: 'Muli', sans-serif;
 }
 
 footer{
 	background-color: #eeeeee;
-	color: #52aeff;
 	bottom: 0;
 	clear: left;
+	color: #bb8fa9;
+	height: 1.3rem;
+	margin-left: 5%;
 	margin-top: 4rem;
+	padding: 0.3rem 0;
 	position: fixed;
 	width: 100%;
-	margin-left: 5%;
-	padding: 0.3rem 0;
-	height: 1.3rem;
 }
 
 footer a{
-	color: #52aeff;
+	color: #bb8fa9;
 	text-decoration: none;
 }
 
-footer:hover .link{
+.link:hover{
 	font-style: italic;
 	font-weight: 600;
 	letter-spacing: 0.02rem;
@@ -40,6 +39,7 @@ h1{
 	color: #560764;
 	font-family: 'Srisakdi', cursive;
 	font-size: 4rem;
+	margin: 2.5rem 0;
 }
 
 h4{
@@ -48,8 +48,8 @@ h4{
 }
 
 hr{	
-	border: none;
 	background-color: #cccccc;
+	border: none;
 	height: 1px;
 	margin: 2rem 0;
 }
@@ -90,22 +90,22 @@ label{
 
 @media only screen and (min-width: 480px){
 	img{
-		width: 70%;
 		margin-left: 15%;
+		width: 70%;
 	}
 }
 
 @media only screen and (min-width: 600px){
 	img{
-		width: 40%;
 		margin: 5%;
+		width: 40%;
 	}
 }
 
 @media only screen and (min-width: 768px){
 	img{
-		width: 30%;
 		margin: 1.66%;
+		width: 30%;
 	}
 }
 
@@ -116,7 +116,7 @@ label{
 
 @media only screen and (min-width: 1200px){
 	img{
-		width: 20%;
 		margin: 2.5%;
+		width: 20%;
 	}
 }
