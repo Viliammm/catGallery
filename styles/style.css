@@ -1,6 +1,6 @@
 *{
 	margin: 0 auto;
-	cursor: url(../images/cat-icon1.png), wait;
+	cursor: url(../images/cat-icon1.png), pointer;
 }
 
 body{
@@ -26,6 +26,7 @@ footer{
 
 footer a{
 	color: #bb8fa9;
+	cursor: url(../images/paw-icon.png), pointer;
 	text-decoration: none;
 }
 
@@ -97,7 +98,7 @@ label{
 
 /* Customize the label */
 .option{
-	cursor: url(../images/paw-icon.png), wait;
+	cursor: url(../images/paw-icon.png), pointer;
 	display: block;
 	padding-left: 1rem;
 	position: relative;
@@ -117,7 +118,7 @@ label{
 	background-color: #fff;
 	border: 1px solid #bb8fa9;
 	border-radius: 3px;
-	cursor: url(../images/paw-icon.png), wait;
+	cursor: url(../images/paw-icon.png), pointer;
 	height: 0.8rem;
 	left: -0.5rem;			
 	position: absolute;
