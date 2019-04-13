@@ -6,7 +6,7 @@
 body{
 	background-color: #eeeeee;
 	font-family: 'Muli', sans-serif;
-	user-select: none;	
+	user-select: none;
 }
 
 footer{
@@ -61,6 +61,7 @@ img{
 	border-radius: 1rem;
 	display: none;
 	float: left;
+	margin-bottom: 2rem;
 	margin-left: 5%;
 	opacity: 0.9;
 	width: 90%;
@@ -92,7 +93,7 @@ label{
 	text-align: center;
 }
 
-/* ---CUSTOM CHECKBOX ---*/
+/* ---CUSTOM CHECKBOXES ---*/
 
 /* Customize the label */
 .option{
@@ -100,6 +101,7 @@ label{
 	display: block;
 	padding-left: 1rem;
 	position: relative;
+	width: 50%;
 }
 
 /* To hide default checkbox */
@@ -160,20 +162,23 @@ label{
 @media only screen and (min-width: 480px){
 	img{
 		margin-left: 15%;
+		margin-right: 15%;
 		width: 70%;
 	}
 }
 
 @media only screen and (min-width: 600px){
 	img{
-		margin: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
 		width: 40%;
 	}
 }
 
 @media only screen and (min-width: 768px){
 	img{
-		margin: 1.66%;
+		margin-left: 1.66%;
+		margin-right: 1.66%;
 		width: 30%;
 	}
 }
@@ -185,7 +190,8 @@ label{
 
 @media only screen and (min-width: 1200px){
 	img{
-		margin: 2.5%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 		width: 20%;
 	}
 }
